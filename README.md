@@ -10,7 +10,7 @@ _cpuSchedulerPt1_ will request you give it the name of the input file. In this c
 
 _memManagement_ will also request an input file. In this case, the input is _memManagementIN.txt_.
 
-_ListString_ can be run without any input.
+_ListString_ and _roll_ 7can be run without any input.
 
 **Haskell Programs:**
 
