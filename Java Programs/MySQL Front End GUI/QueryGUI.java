@@ -205,14 +205,8 @@ public class QueryGUI extends JFrame
 			else
 			{
 				try
-				{
-					tableModel.setUpdate(enterSQLTF.getText());
-					a.remove(results);
-
-					results = new JScrollPane(new JTable(tableModel));
-					results.setBounds(10, 205, 840, 200);
-					a.add(results);
-				}
+				{ tableModel.setUpdate(enterSQLTF.getText()); }
+				
 				catch (SQLException ex)
 				{ JOptionPane.showMessageDialog(a, ex.toString().split(": ")[1]); }
 
